@@ -16,6 +16,7 @@ export default {
       },
       maxWidth: {
         xs: '327px',
+        '3xl': '730px',
       },
       dropShadow: {
         article: '0px 40px 40px -10px rgba(201, 213, 225, 0.503415)',

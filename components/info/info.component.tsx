@@ -1,7 +1,7 @@
 export default function Info() {
   return (
     <div className="flex flex-col gap-3">
-      <h3 className="font-bold text-very-dark-grayish-blue">
+      <h3 className="font-bold text-very-dark-grayish-blue lg:text-xl">
         Shift the overall look and feel by adding these wonderful touches to
         furniture in your home
       </h3>
