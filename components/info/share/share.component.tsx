@@ -11,7 +11,10 @@ export default function Share() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="lg:relative">
-      <Button isLight onClickFunc={() => setIsMenuOpen(!isMenuOpen)} />
+      <Button
+        onClickFunc={() => setIsMenuOpen(!isMenuOpen)}
+        isMenuOpen={isMenuOpen}
+      />
       <AnimatePresence>
         {isMenuOpen ? (
           <Menu onClickFunc={() => setIsMenuOpen(!isMenuOpen)} />
