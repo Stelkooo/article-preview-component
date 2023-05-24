@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  p {
+    @apply text-[13px]/5;
+    @apply font-medium;
+    @apply tracking-[0.12px];
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
