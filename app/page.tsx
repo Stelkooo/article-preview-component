@@ -36,7 +36,7 @@ export default function Home() {
               className="h-[200px] w-full rounded-t-lg.5 object-cover object-[center_25%] lg:h-full lg:min-w-[285px] lg:rounded-l-lg.5 lg:rounded-tr-none lg:object-left"
             />
           </figure>
-          <div className="relative flex flex-col gap-8 px-8 pb-5 pt-[36px] lg:justify-between lg:px-10 lg:py-8">
+          <div className="relative flex flex-col gap-8 px-8 pb-5 pt-[36px] lg:justify-between lg:gap-0 lg:px-10 lg:py-8">
             <Info />
             <Author />
           </div>
