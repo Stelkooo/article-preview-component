@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 
+import { AnimatePresence } from 'framer-motion';
+
 import Button from './button/button.component';
 import Menu from './menu/menu.component';
 
@@ -10,9 +12,11 @@ export default function Share() {
   return (
     <div className="lg:relative">
       <Button isLight onClickFunc={() => setIsMenuOpen(!isMenuOpen)} />
-      {isMenuOpen ? (
-        <Menu onClickFunc={() => setIsMenuOpen(!isMenuOpen)} />
-      ) : null}
+      <AnimatePresence>
+        {isMenuOpen ? (
+          <Menu onClickFunc={() => setIsMenuOpen(!isMenuOpen)} />
+        ) : null}
+      </AnimatePresence>
     </div>
   );
 }

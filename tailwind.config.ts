@@ -21,6 +21,9 @@ export default {
       dropShadow: {
         article: '0px 40px 40px -10px rgba(201, 213, 225, 0.503415)',
       },
+      borderRadius: {
+        'lg.5': '10px',
+      },
     },
   },
   plugins: [],
